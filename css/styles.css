@@ -1,0 +1,631 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@400;700&display=swap");
+@import url("http://fonts.cdnfonts.com/css/post-no-bills-jaffna");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1920px;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background: #0f0f0f;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dropdown-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-item {
+  font-family: "PT Sans", sans-serif;
+  background: #0f0f0f;
+  padding: 31px 18px;
+}
+
+.dropdown-item:hover {
+  background: #1f1f1f;
+}
+
+.dropdown-menu__item {
+  text-transform: uppercase;
+  color: #969696;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.dropdown-menu__item:hover {
+  color: #ffffff;
+}
+
+.dropdown-item-logo {
+  font-family: "Post No Bills Jaffna SemiBold", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #ffffff;
+  text-decoration: none;
+  background: #0f0f0f;
+}
+
+.brand-presentation {
+  background: linear-gradient(
+      0deg,
+      rgba(15, 15, 15, 0.5),
+      rgba(15, 15, 15, 0.5)
+    ),
+    url(../img/main-start-bg.jpg);
+  text-transform: uppercase;
+  color: #ffffff;
+  flex-direction: column;
+  padding: 160px 0 154px 0;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+}
+
+.brand-section {
+  display: flex;
+  justify-content: center;
+}
+
+.brand {
+  border: 2px solid #ffffff;
+  height: 320px;
+  width: 320px;
+}
+
+.brand__title {
+  text-align: center;
+  padding: 93px 0 4px 0;
+}
+
+.logo-title {
+  font-family: "Post No Bills Jaffna SemiBold", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+  margin: 0;
+  padding: 0;
+}
+
+.brand-presentation__divider {
+  border: 1px solid #ffffff;
+  margin: 0 71px 0 70px;
+  width: 179px;
+}
+
+.brand-locality {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  padding-bottom: 94px;
+  
+}
+
+.brand-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  justify-items: center;
+  padding: 0 595px;
+  
+}
+
+.collection {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Playfair Display", serif;
+  background: #000000;
+}
+
+.collection-item-bar {
+  display: flex;
+  justify-content: center;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-bottom: 93px;
+}
+
+.collection-img {
+  background: url(../img/new-collect-bg.svg);
+  padding: 27px 22px 34px 23px;
+}
+
+.collection-title-bar {
+  margin-bottom: 50px;
+  text-align: center;
+
+}
+
+.new-collection-title {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 93px auto 50px auto;
+}
+
+.new-collection-title__divider {
+  border: 1px solid #ffffff;
+  width: 120px;
+  margin-left: 460px;
+}
+
+.collection-item-1 {
+  margin-right: 50px;
+}
+
+.collection-item-2 {
+  margin-right: 50px;
+}
+
+.collection-item-3 {
+  margin-right: 80px;
+}
+
+.watch-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.watch-price {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #d0d0d0;
+}
+
+.catalog {
+  background: linear-gradient(
+      0deg,
+      rgba(15, 15, 15, 0.5),
+      rgba(15, 15, 15, 0.5)
+    ),
+    url(../img/catalog-bg.svg), #000000;
+
+  justify-content: center;
+}
+
+.catalog-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 484px;
+  font-family: "Playfair Display";
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.catalog-title__divider {
+  border: 1px solid #ffffff;
+  width: 120px;
+  margin-left: 381px;
+}
+
+.catalog-button {
+  padding: 12px 28px;
+  border: 1px solid #ffffff;
+  text-transform: uppercase;
+  background: none;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  margin: 60px 371px 56px 371px;
+}
+
+.collection-2018-img {
+  background: linear-gradient(
+      0deg,
+      rgba(15, 15, 15, 0.5),
+      rgba(15, 15, 15, 0.5)
+    ),
+    url(../img/), #000000;
+}
+
+.collection-2018-descr {
+  background: #000000;
+}
+
+.collection-2018-title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.collection-2018-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 64px;
+  margin-left: 157px;
+  margin-right: 199px;
+}
+
+.collection-2018-button {
+  background: none;
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 12px 28px;
+  margin-bottom: 98px;
+  margin-left: 316px;
+}
+
+.collection-2018 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collection-2018-title__divider {
+  width: 120px;
+  border: 1px solid #ffffff;
+  margin-left: 404px;
+  margin-bottom: 40px;
+}
+
+.collection-2018-title {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.collection-2018-text {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 199px;
+  margin-left: 157px;
+  margin-bottom: 64px;
+}
+
+.collection-2018-button {
+  font-family: "PT Sans", sans-serif;
+  height: 47px;
+  border: 1px solid #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.new-products {
+  background: #000000;
+  display: flex;
+  justify-content: center;
+}
+
+.new-products-title {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+
+.new-products-title__divider {
+  border: 1px solid #ffffff;
+  width: 120px;
+  margin-bottom: 80px;
+}
+
+.new-products-item__img {
+  background: #191b1c;
+}
+.new-products-watch {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 25px 0 10px 0;
+}
+
+.new-products-price {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #d0d0d0;
+}
+
+.new-products__group-1,
+.new-products__group-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.new-products-item__button {
+  background: rgba(25, 27, 28, 0.5);
+  padding: 12px 28px;
+  cursor: none;
+  border: 1px solid #ffffff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.useful-info {
+  background: #0f0f0f;
+}
+
+.useful-info__title {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 64px;
+  padding-bottom: 36px;
+}
+
+.useful-info__title__divider {
+  width: 120px;
+  border: 1px solid #ffffff;
+  margin-bottom: 57px;
+  margin-left: 901px;
+}
+
+h4 {
+  margin: 0;
+}
+
+.useful-info__group-1,
+.useful-info__group-2,
+.useful-info__group-3 {
+  display: flex;
+}
+
+.useful-info_ {
+  margin-bottom: 0;
+}
+
+.useful-info-topic-title {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-bottom: 14px;
+}
+
+.useful-info-topic-text {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.useful-info-tags {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  justify-content: end;
+  margin: 0;
+}
+
+.useful-info-btn {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background: rgba(25, 27, 28, 0.5);
+  margin-top: 39px;
+  padding: 12px 28px;
+}
+
+.useful-info-topic-1,
+.useful-info-topic-2,
+.useful-info-topic-3 {
+  margin: 53px 158px 175px 145px;
+}
+
+.partners-block {
+  background: #0f0f0f;
+}
+
+.partners-title {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 89px;
+  padding-bottom: 22px;
+}
+
+.partners-title__divider {
+  border: 1px solid #ffffff;
+  width: 120px;
+  margin-left: 900px;
+}
+.brands {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 113px;
+  padding-right: 268px;
+  padding-left: 238px;
+}
+
+.brands__item {
+  padding-right: 30px;
+}
+
+.info-block {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(
+      0deg,
+      rgba(15, 15, 15, 0.85),
+      rgba(15, 15, 15, 0.85)
+    ),
+    url(../img/info-block-bg.svg), #c4c4c4;
+}
+
+.info-block-about-company {
+  margin-left: 405px;
+}
+
+.subscription-block {
+  margin-right: 405px;
+}
+
+.about-company-title,
+.category-block__title,
+.subscription-title {
+  font-family: "Playfair Display";
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+  padding-top: 80px;
+  margin: 0;
+}
+
+.about-company-text,
+.subscription-text {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  text-align: left;
+  max-width: 350px;
+  max-height: 251px;
+}
+
+.about-company-text {
+  padding-bottom: 66px;
+}
+
+.subscription-text {
+  padding-bottom: 26px;
+}
+
+.category-item {
+  font-family: "PT Sans", sans-serif;
+  background: #0f0f0f;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #d0d0d0;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.subscription-form__input {
+  background: rgba(255, 255, 255, 0.4);
+  width: 210px;
+  height: 42px;
+}
+
+.subscription-form__input::placeholder {
+  padding: 10px 121px 11px 15px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #969696;
+}
+
+.subscription-form__btn {
+  background: #0f0f0f;
+  align-items: center;
+  padding: 10px 20px;
+  font-weight: 400;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  border: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background: #0f0f0f;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #d0d0d0;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.agreement {
+  text-align: right;
+  text-decoration-line: underline;
+  color: #d0d0d0;
+}
+
